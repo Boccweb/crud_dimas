@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #EBECF0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #203250;
+}
+.sidebar{
+    min-height: 100vh;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #424769;
+}
+.sidebar .logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030637;
+}
+.sidebar .logo a{
+    font-size: 1.7rem;
+    font-weight: 600px;
+    color: red;
+}
+.sidebar .logo a span{
+    color: white;
+}
+.sidebar .menu-sidebar{
+    margin: 3rem 2rem;
+}
+.sidebar .menu-sidebar ul{
+    margin-bottom: 30px;
+}
+.sidebar .menu-sidebar ul li{
+    padding: 15px;
+    border-radius: 7px;
+}
+.sidebar .menu-sidebar ul li:hover{
+    background-color: #7077A1;
+}
+.sidebar .menu-sidebar ul li a{
+    font-size: 0,9 rem;
+    color: white;
+}
+.active{
+    background-color: #7077A1;
+}
+h1{
+    font-weight: 70px;
+    margin-left: 270px;
+}
+.content{
+    margin-left: 250px;
+}
+.container{
+    width: 92%;
+    height: 750px;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.container .header h3{
+    padding: 10px 10px;
+    background-color: #2D3250;
+    color: white;
+    border-bottom-left-radius: 5px;
+}
+.container .content-tambah{
+    margin:  30px 35px;
+}
+.container .content-tambah a{
+    padding: 10px 20px;
+    background-color: #2D3250;
+    border-radius: 5px;
+    color: white;
+}
+.container .content-table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 95%;
+}
+.container .content-table thead tr th{
+    color: #1b1a1a;
+    padding: 10px 5px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #bfbfbf;
+}
+.container .content-table tbody tr td{
+    color: #666565;
+    padding: 20px 5px;
+    text-align: left;
+    border: 1px solid #bfbfbf;
+}
+.container .content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.container .content-table .content-setting .edit{
+    padding: 10px 20px;
+    background-color: RGB(6, 146, 94);
+    border-radius: 5px;
+    color: white;
+}
+.container .content-table .content-setting .delete{
+    padding: 10px 20px;
+    background-color: rgba(231, 65 ,65);
+    border-radius: 5px;
+    color: white;
+}
+.container-edit{
+    width: 75%;
+    margin: 20px 320px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.container-edit h3{
+    padding: 10px 10px;
+    background-color: #2d3250;
+    margin-bottom: 1rem;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+.container-edit .form-edit form table{
+    margin: 5px auto;
+}
+.container-edit .form-edit form table tr td{
+    padding: 10px 10px;
+}
+.container-edit .form-edit form table tr td input{
+    width: 900px;
+    height: 30px;
+}
+.container-edit .form-edit form .btn-edit{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-edit .form-edit form .btn-edit button{
+    margin: 2.5rem 2.4rem;
+    padding: 10px 20px;
+    background-color: #2D3250;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container-tambah{
+    width: 75%;
+    margin: 20px 320px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.container-tambah h3{
+    padding: 10px 10px;
+    background-color: #2d3250;
+    margin-bottom: 1rem;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+.container-tambah .form-edit form table{
+    margin: 5px auto;
+}
+.container-tambah .form-edit form table tr td{
+    padding: 10px 10px;
+}
+.container-tambah .form-edit form table tr td input{
+    width: 850px;
+    height: 30px;
+}
+.container-tambah .form-edit form .btn-edit{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-tambah .form-edit form .btn-edit button{
+    margin: 2.5rem 2.4rem;
+    padding: 10px 20px;
+    background-color: #2D3250;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

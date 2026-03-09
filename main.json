@@ -1,0 +1,68 @@
+[
+    {
+        "nama": "guitar hero",
+        "nis": "457898",
+        "jurusan": "musik",
+        "alamat": "trecen gakuen"
+    },
+    {
+        "nama": "ryo",
+        "nis": "457898",
+        "jurusan": null,
+        "alamat": "trecen gakuen",
+        "nisn": "123456",
+        "nama ayah": "supri",
+        "nama ibu": "santi",
+        "tempat lahir": "tokyo",
+        "tanggal lahir": "2026-03-11",
+        "jenis kelamin": "P"
+    },
+    {
+        "nama": "ryo",
+        "nis": "457898",
+        "jurusan": null,
+        "alamat": "stary",
+        "nisn": "123456",
+        "nama ayah": "supri",
+        "nama ibu": "santi",
+        "tempat lahir": "tokyo",
+        "tanggal lahir": "2026-03-19",
+        "jenis kelamin": "P"
+    },
+    {
+        "nama": "ryo",
+        "nis": "457898",
+        "jurusan": "musik",
+        "alamat": "stary",
+        "nisn": "12345678911",
+        "nama ayah": "supri",
+        "nama ibu": "santi",
+        "tempat lahir": "tokyo",
+        "tanggal lahir": "2026-03-25",
+        "jenis kelamin": "P"
+    },
+    {
+        "nama": "ryo",
+        "nis": "457898",
+        "jurusan": "musik",
+        "alamat": "stary",
+        "nisn": "12345678900",
+        "nama ayah": "supri",
+        "nama ibu": "santi",
+        "tempat lahir": "tokyo",
+        "tanggal lahir": "275760-02-08",
+        "jenis kelamin": "P"
+    },
+    {
+        "nama": "guitar hero",
+        "nis": "44234567",
+        "jurusan": "musik",
+        "alamat": "stary",
+        "nisn": "123456786534",
+        "nama ayah": "susanto",
+        "nama ibu": "susti",
+        "tempat lahir": "tokyo",
+        "tanggal lahir": "275760-05-04",
+        "jenis kelamin": "P"
+    }
+]
